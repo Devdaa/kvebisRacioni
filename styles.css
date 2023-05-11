@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1920px;
+    height: 200px;
+    background-color: #2EAF78;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-text{
+    padding-left: 40px;
+}
+
+nav{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav > a{
+    font-family: 'firaGO', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.logo-topP{
+    font-size: 24px;
+    font-family: 'firaGO', sans-serif;
+}
+
+.logo-bottomP{
+    font-size: 14px;
+    font-family: 'firaGO', sans-serif;
+}
+
+.button-div > button{
+    width: 138px;
+    height: 45px;
+    background-color: #F9EBEB;
+    border-radius: 10px;
+    font-family: 'firaGO', sans-serif;
+    font-size: 24px;
+    border: none;
+}
+
+main{
+    width: 1920px;
+    height: 2265px;
+    background-color: #F9EBEB;
+}
+
+.kvebis-archevani{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upperCards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.bottomCards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card{
+    width: 770px;
+    height: 306px;
+    background-color: #2EAF78;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 67px;
+    border-radius: 30px;
+    border: 10px solid #FFFCFC;
+}
+
+.card > img{
+    margin-left: 54px;
+    width: 200px;
+    height: 200px;
+}
+
+.text-description{
+    margin-left: 82px;
+}
+
+.description{
+    font-family: 'firaGO', sans-serif;
+    font-size: 32px;
+    color: #0A0909;
+}
+
+.price{
+    margin-top: 20px;
+    font-family: 'firaGO', sans-serif;
+    font-size: 32px;
+    color: #FFFCFC;
+}
+
+.more-info{
+    margin-top: 41px;
+    width: 206px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    font-family: 'firaGO', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.kvebis-racioni > h1{
+    font-family: 'firaGO', sans-serif;
+    font-size: 36px;
+    margin-left: 140px;
+    padding-top: 100px;
+}
+
+.shedegebi{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.shedegebi > h1{
+    font-family: 'firaGO', sans-serif;
+    font-size: 36px;
+}
+
+.big-container{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1640px;
+    height: 625px;
+    background-color: #2EAF78;
+    border: 10px solid #FFFCFC;
+    border-radius: 60px;
+}
+
+.upper-biggie{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.biggie-nav{
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.wrap-biggie-nav{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.bigCircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.smallCircle{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    font-family: 'firaGO', sans-serif;
+    font-size: px;
+}
+
+footer{
+    padding-top: 60px;
+    width: 1920px;
+    height: 320px;
+    background-color: #2EAF78;
+    display: flex;
+    justify-content: flex-start;
+    gap: 140px;
+}
+
+.logoInFooter{
+    display: flex;
+    margin-left: 140px;
+}
+
+.logoInFooter > img{
+    width: 67.84px;
+    height: 30.22px;
+}
+
+.socials-icons{
+    display: flex;
+    gap: 25px;
+}
+
+.socials-icons > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sakontakto-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sakontakto-info > p{
+    font-family: 'firaGO', sans-serif;
+    font-size: 24px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.socials > p{
+    font-family: 'firaGO', sans-serif;
+    font-size: 24px;
+}
+
+.tos > p{
+    font-family: 'firaGO', sans-serif;
+    font-size: 24px;
+}
